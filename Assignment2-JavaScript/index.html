@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="text-center d-flex align-items-center vh-100 bg-light">
+
+    <div class="container">
+        <div class="mb-4 d-flex flex-column align-items-center">
+            <h1 class="text-danger fw-bolder fs-1">Quote of the Day</h1>
+            <p class="mb-4 fw-medium fs-3">Press the button below to receive a random quote!</p>
+            <button id="generate-btn" class="btn btn-outline-primary mb-4" onclick="generateQuote()">Generate Quote</button>
+            <div class="text-dark fw-bold fs-3" id="quote">Click the button to generate a random quote.</div>
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
